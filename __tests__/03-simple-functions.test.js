@@ -62,7 +62,7 @@ describe("getLargestKeyValuePair", () => {
 
   test("Return the key-value pair with the largest value in an object with negative values", () => {
     expect(getLargestKeyValuePair({ a: -2, b: -3, c: -5, d: -1 })).toEqual({
-      a: -2,
+      d: -1,
     });
   });
 
