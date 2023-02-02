@@ -1,6 +1,8 @@
-const examplePersonData = require("../data/people.js");
-const exampleAnimalData = require("../data/animals.js");
-const exampleBookData = require("../data/books.js");
+const { people } = require("../data/people.js");
+const { animals } = require("../data/animals.js");
+const { books } = require("../data/books.js");
+
+console.log(people, animals, books);
 
 /**
  * Prints out the name, age, hobbies and address of each person in the data array
